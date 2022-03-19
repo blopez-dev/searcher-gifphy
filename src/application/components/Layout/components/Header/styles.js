@@ -9,6 +9,9 @@ export const Heading = styled.header`
 
 export const Container = styled.div`
   display:flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: flex-start;
   max-width:100%;
   padding: 10px;
   border-bottom: 1px solid grey;
